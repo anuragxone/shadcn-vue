@@ -1917,6 +1917,21 @@ export const Index: Record<string, any> = {
   category: "",
   subcategory: ""
 },
+"Authentication01": {
+  name: "Authentication01",
+  description: "",
+  type: "registry:block",
+  registryDependencies: ["button","card","input","label"],
+  files: [{
+    path: "registry/new-york-v4/blocks/Authentication01.vue",
+    type: "registry:block",
+    target: "pages/dashboard/index.vue"
+  }],
+  component: () => import("@/registry/new-york-v4/blocks/Authentication01.vue").then((m) => m.default),
+  source: "",
+  category: "authentication",
+  subcategory: ""
+},
 "Login01": {
   name: "Login01",
   description: "",
